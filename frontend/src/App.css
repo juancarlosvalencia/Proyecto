@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+hr.hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.cursor-pointer{
+  cursor:pointer !important;
+}
+
+table.table th i, table.table td a {
+  cursor: pointer;
+}
+
+      table.table td a.add {
+          color: #14a44d;
+      }
+
+  table.table td a.edit {
+      color: #0d6efd;
+  }
+
+      table.table td a.delete {
+          color: #BD1226;
+      }
+
+  table.table td .add {
+      display: none;
+  }
+
+table.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.tabla-crud tbody tr:last-child {
+  font-size: 1.15rem !important;
+}
+
+.pagination li {
+  border-color: #AA0C23 !important;
+}
+
+  .pagination li a {
+      border-radius: 0 !important;
+  }
+
+  .pagination li:hover a {
+      background-color: #AA0C23 !important;
+      color: white !important;
+      box-shadow: 0 8px 9px -4px rgba(189,18,38,.3),0 4px 18px 0 rgba(189,18,38,.2);
+  }
+
+  .pagination .active a {
+      background-color: #AA0C23 !important;
+      color: white !important;
+  }
+
+.btn-check:checked + .btn-outline-primary, .btn-outline-primary:hover {
+  background-color: #9B0A1F !important;
+}
+
+.btn-outline-primary {
+  color: #9B0A1F;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #9B0A1F !important;
+}
+
+th {
+  text-align: center;
+}
+
+.search-bar {
+  margin: auto auto !important;
+}
+
+.search-bar .input-group {
+  border-radius: 30px !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.search-bar .form-control {
+  border: none !important;
+  padding-left: 30px !important;
+  height: 50px !important;
+  font-size: 18px !important;
+}
+
+.search-bar .form-control:hover {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search-bar .form-control:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search-bar .btn {
+  border: none !important;
+  padding: 10px 35px !important;
+}
+
+.alert{
+  width: 400px;
+  position: fixed;
+  z-index: 9999;
+  right: 20px;
+  top: 25px;
+  opacity: 0.9;
+}
+
+.icono-eliminar:hover{
+  color: #BD1226 !important;
+}
+
+.icono-guardar:hover{
+  color: #14a44d !important;
+}
